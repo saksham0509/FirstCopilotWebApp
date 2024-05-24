@@ -1,0 +1,19 @@
+/* css/main.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.table {
+    width: 100%;
+    margin-top: 5px;
+}
+
+table tr {
+    border: 10px solid #0000;
+}
+
+.form-control {
+    width: 100%;
+}
