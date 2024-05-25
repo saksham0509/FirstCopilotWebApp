@@ -1,7 +1,5 @@
 public class Test {
 
-    public Test(){
-	}
     public static void main(String[] args) {
         int n = 10; // number of elements in the Fibonacci series
         int t1 = 0, t2 = 1;
