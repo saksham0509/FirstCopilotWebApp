@@ -1,4 +1,7 @@
 public class Test {
+
+    public Test(){
+	}
     public static void main(String[] args) {
         int n = 10; // number of elements in the Fibonacci series
         int t1 = 0, t2 = 1;
@@ -7,9 +10,9 @@ public class Test {
         for (int i = 1; i <= n; ++i) {
             System.out.print(t1 + " + ");
 
-            int sum1 = t1 + t2;
+            int sum = t1 + t2;
             t1 = t2;
-            t2 = sum1;
+            t2 = sum;
         }
     }
 }
