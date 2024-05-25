@@ -7,9 +7,9 @@ public class Test {
         for (int i = 1; i <= n; ++i) {
             System.out.print(t1 + " + ");
 
-            int sum = t1 + t2;
+            int sum1 = t1 + t2;
             t1 = t2;
-            t2 = sum;
+            t2 = sum1;
         }
     }
 }
